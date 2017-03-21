@@ -13,7 +13,9 @@
 		28E2A77E1E81CBA400DC1163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E2A77D1E81CBA400DC1163 /* Assets.xcassets */; };
 		28E2A7811E81CBA400DC1163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E2A77F1E81CBA400DC1163 /* LaunchScreen.storyboard */; };
 		28E2A78C1E81CBA400DC1163 /* ImpressionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A78B1E81CBA400DC1163 /* ImpressionTestTests.swift */; };
-		28E2A7A11E81CDF000DC1163 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A7A01E81CDF000DC1163 /* Cell.swift */; };
+		28E2A7A31E81D2CB00DC1163 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A7A21E81D2CB00DC1163 /* Cell.swift */; };
+		28E2A7A51E81D35500DC1163 /* ImpressionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A7A41E81D35500DC1163 /* ImpressionTracker.swift */; };
+		28E2A7A71E81D4CF00DC1163 /* Randomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A7A61E81D4CF00DC1163 /* Randomizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,9 @@
 		28E2A7871E81CBA400DC1163 /* ImpressionTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpressionTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E2A78B1E81CBA400DC1163 /* ImpressionTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpressionTestTests.swift; sourceTree = "<group>"; };
 		28E2A78D1E81CBA400DC1163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28E2A7A01E81CDF000DC1163 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		28E2A7A21E81D2CB00DC1163 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		28E2A7A41E81D35500DC1163 /* ImpressionTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressionTracker.swift; sourceTree = "<group>"; };
+		28E2A7A61E81D4CF00DC1163 /* Randomizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Randomizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +85,13 @@
 			children = (
 				28E2A7761E81CBA400DC1163 /* AppDelegate.swift */,
 				28E2A7781E81CBA400DC1163 /* ViewController.swift */,
+				28E2A7A61E81D4CF00DC1163 /* Randomizer.swift */,
+				28E2A7A21E81D2CB00DC1163 /* Cell.swift */,
 				28E2A77A1E81CBA400DC1163 /* Main.storyboard */,
 				28E2A77D1E81CBA400DC1163 /* Assets.xcassets */,
 				28E2A77F1E81CBA400DC1163 /* LaunchScreen.storyboard */,
 				28E2A7821E81CBA400DC1163 /* Info.plist */,
-				28E2A7A01E81CDF000DC1163 /* Cell.swift */,
+				28E2A7A41E81D35500DC1163 /* ImpressionTracker.swift */,
 			);
 			path = ImpressionTest;
 			sourceTree = "<group>";
@@ -205,8 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				28E2A7791E81CBA400DC1163 /* ViewController.swift in Sources */,
+				28E2A7A71E81D4CF00DC1163 /* Randomizer.swift in Sources */,
 				28E2A7771E81CBA400DC1163 /* AppDelegate.swift in Sources */,
-				28E2A7A11E81CDF000DC1163 /* Cell.swift in Sources */,
+				28E2A7A31E81D2CB00DC1163 /* Cell.swift in Sources */,
+				28E2A7A51E81D35500DC1163 /* ImpressionTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

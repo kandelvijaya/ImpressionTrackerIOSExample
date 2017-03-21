@@ -35,36 +35,19 @@ final class ViewController: UICollectionViewController, UICollectionViewDelegate
         return cell
     }
 
+    override func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        if let trackableCell = cell as? TrackableView {
+            trackableCell.tracker = ImpressionTracker(delegate: trackableCell)
+            trackableCell.tracker?.start()
+        }
+    }
+
+    override func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        (cell as? TrackableView)?.tracker?.stop()
+    }
+
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return Randomizer.randomSizeIn()
-    }
-
-}
-
-
-class Randomizer {
-
-    public static func randomNumber() -> Int {
-        return Int(arc4random()) % 20
-    }
-
-    private static func randomColorSpaceNumber() -> Float {
-        return Float(Int(arc4random()) % 255) / 255
-    }
-
-    public static func randomColor() -> UIColor {
-        let red = randomColorSpaceNumber()
-        let green = randomColorSpaceNumber()
-        let blue = randomColorSpaceNumber()
-        return UIColor(colorLiteralRed: red, green: green, blue: blue, alpha: 1)
-    }
-
-    public static func randomSizeIn(_ bounds: CGSize = CGSize(width: 200, height: 200)) -> CGSize {
-        let hHeight = Int(bounds.height / 2)
-        let hWidth = Int(bounds.width / 2)
-        let randomHeight = hHeight + Int(arc4random_uniform(UInt32(hHeight)))
-        let randomWidth = hWidth + Int(arc4random_uniform(UInt32(hWidth)))
-        return CGSize(width: randomWidth, height: randomHeight)
     }
 
 }
