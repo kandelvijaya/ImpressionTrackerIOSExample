@@ -84,14 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				28E2A7761E81CBA400DC1163 /* AppDelegate.swift */,
-				28E2A7781E81CBA400DC1163 /* ViewController.swift */,
-				28E2A7A61E81D4CF00DC1163 /* Randomizer.swift */,
-				28E2A7A21E81D2CB00DC1163 /* Cell.swift */,
-				28E2A77A1E81CBA400DC1163 /* Main.storyboard */,
 				28E2A77D1E81CBA400DC1163 /* Assets.xcassets */,
-				28E2A77F1E81CBA400DC1163 /* LaunchScreen.storyboard */,
-				28E2A7821E81CBA400DC1163 /* Info.plist */,
+				28E2A7A21E81D2CB00DC1163 /* Cell.swift */,
 				28E2A7A41E81D35500DC1163 /* ImpressionTracker.swift */,
+				28E2A7821E81CBA400DC1163 /* Info.plist */,
+				28E2A77F1E81CBA400DC1163 /* LaunchScreen.storyboard */,
+				28E2A77A1E81CBA400DC1163 /* Main.storyboard */,
+				28E2A7A61E81D4CF00DC1163 /* Randomizer.swift */,
+				28E2A7781E81CBA400DC1163 /* ViewController.swift */,
 			);
 			path = ImpressionTest;
 			sourceTree = "<group>";
@@ -243,6 +243,7 @@
 				28E2A77B1E81CBA400DC1163 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		28E2A77F1E81CBA400DC1163 /* LaunchScreen.storyboard */ = {
@@ -251,6 +252,7 @@
 				28E2A7801E81CBA400DC1163 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
