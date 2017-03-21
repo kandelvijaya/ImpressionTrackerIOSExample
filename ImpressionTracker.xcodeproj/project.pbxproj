@@ -12,21 +12,10 @@
 		28E2A77C1E81CBA400DC1163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E2A77A1E81CBA400DC1163 /* Main.storyboard */; };
 		28E2A77E1E81CBA400DC1163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E2A77D1E81CBA400DC1163 /* Assets.xcassets */; };
 		28E2A7811E81CBA400DC1163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E2A77F1E81CBA400DC1163 /* LaunchScreen.storyboard */; };
-		28E2A78C1E81CBA400DC1163 /* ImpressionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A78B1E81CBA400DC1163 /* ImpressionTestTests.swift */; };
 		28E2A7A31E81D2CB00DC1163 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A7A21E81D2CB00DC1163 /* Cell.swift */; };
 		28E2A7A51E81D35500DC1163 /* ImpressionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A7A41E81D35500DC1163 /* ImpressionTracker.swift */; };
 		28E2A7A71E81D4CF00DC1163 /* Randomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A7A61E81D4CF00DC1163 /* Randomizer.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		28E2A7881E81CBA400DC1163 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28E2A76B1E81CBA400DC1163 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28E2A7721E81CBA400DC1163;
-			remoteInfo = ImpressionTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		28E2A7731E81CBA400DC1163 /* ImpressionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpressionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,9 +25,6 @@
 		28E2A77D1E81CBA400DC1163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E2A7801E81CBA400DC1163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28E2A7821E81CBA400DC1163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28E2A7871E81CBA400DC1163 /* ImpressionTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpressionTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28E2A78B1E81CBA400DC1163 /* ImpressionTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpressionTestTests.swift; sourceTree = "<group>"; };
-		28E2A78D1E81CBA400DC1163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E2A7A21E81D2CB00DC1163 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		28E2A7A41E81D35500DC1163 /* ImpressionTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressionTracker.swift; sourceTree = "<group>"; };
 		28E2A7A61E81D4CF00DC1163 /* Randomizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Randomizer.swift; sourceTree = "<group>"; };
@@ -52,21 +38,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28E2A7841E81CBA400DC1163 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		28E2A76A1E81CBA400DC1163 = {
 			isa = PBXGroup;
 			children = (
-				28E2A7751E81CBA400DC1163 /* ImpressionTest */,
-				28E2A78A1E81CBA400DC1163 /* ImpressionTestTests */,
+				28E2A7751E81CBA400DC1163 /* ImpressionTracker */,
 				28E2A7741E81CBA400DC1163 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,12 +53,11 @@
 			isa = PBXGroup;
 			children = (
 				28E2A7731E81CBA400DC1163 /* ImpressionTracker.app */,
-				28E2A7871E81CBA400DC1163 /* ImpressionTrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28E2A7751E81CBA400DC1163 /* ImpressionTest */ = {
+		28E2A7751E81CBA400DC1163 /* ImpressionTracker */ = {
 			isa = PBXGroup;
 			children = (
 				28E2A7761E81CBA400DC1163 /* AppDelegate.swift */,
@@ -93,16 +70,8 @@
 				28E2A7A61E81D4CF00DC1163 /* Randomizer.swift */,
 				28E2A7781E81CBA400DC1163 /* ViewController.swift */,
 			);
-			path = ImpressionTest;
-			sourceTree = "<group>";
-		};
-		28E2A78A1E81CBA400DC1163 /* ImpressionTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				28E2A78B1E81CBA400DC1163 /* ImpressionTestTests.swift */,
-				28E2A78D1E81CBA400DC1163 /* Info.plist */,
-			);
-			path = ImpressionTestTests;
+			name = ImpressionTracker;
+			path = ImpressionTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,24 +94,6 @@
 			productReference = 28E2A7731E81CBA400DC1163 /* ImpressionTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		28E2A7861E81CBA400DC1163 /* ImpressionTrackerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28E2A7931E81CBA400DC1163 /* Build configuration list for PBXNativeTarget "ImpressionTrackerTests" */;
-			buildPhases = (
-				28E2A7831E81CBA400DC1163 /* Sources */,
-				28E2A7841E81CBA400DC1163 /* Frameworks */,
-				28E2A7851E81CBA400DC1163 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				28E2A7891E81CBA400DC1163 /* PBXTargetDependency */,
-			);
-			name = ImpressionTrackerTests;
-			productName = ImpressionTestTests;
-			productReference = 28E2A7871E81CBA400DC1163 /* ImpressionTrackerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,12 +108,6 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = J67E9B6234;
 						ProvisioningStyle = Automatic;
-					};
-					28E2A7861E81CBA400DC1163 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = J67E9B6234;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 28E2A7721E81CBA400DC1163;
 					};
 				};
 			};
@@ -180,7 +125,6 @@
 			projectRoot = "";
 			targets = (
 				28E2A7721E81CBA400DC1163 /* ImpressionTracker */,
-				28E2A7861E81CBA400DC1163 /* ImpressionTrackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,13 +137,6 @@
 				28E2A7811E81CBA400DC1163 /* LaunchScreen.storyboard in Resources */,
 				28E2A77E1E81CBA400DC1163 /* Assets.xcassets in Resources */,
 				28E2A77C1E81CBA400DC1163 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28E2A7851E81CBA400DC1163 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,23 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28E2A7831E81CBA400DC1163 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28E2A78C1E81CBA400DC1163 /* ImpressionTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		28E2A7891E81CBA400DC1163 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28E2A7721E81CBA400DC1163 /* ImpressionTracker */;
-			targetProxy = 28E2A7881E81CBA400DC1163 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		28E2A77A1E81CBA400DC1163 /* Main.storyboard */ = {
@@ -356,7 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J67E9B6234;
-				INFOPLIST_FILE = ImpressionTest/Info.plist;
+				INFOPLIST_FILE = ImpressionTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.ImpressionTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,41 +290,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J67E9B6234;
-				INFOPLIST_FILE = ImpressionTest/Info.plist;
+				INFOPLIST_FILE = ImpressionTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.ImpressionTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		28E2A7941E81CBA400DC1163 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J67E9B6234;
-				INFOPLIST_FILE = ImpressionTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.ImpressionTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImpressionTracker.app/ImpressionTracker";
-			};
-			name = Debug;
-		};
-		28E2A7951E81CBA400DC1163 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J67E9B6234;
-				INFOPLIST_FILE = ImpressionTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.ImpressionTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImpressionTracker.app/ImpressionTracker";
 			};
 			name = Release;
 		};
@@ -426,14 +317,7 @@
 				28E2A7921E81CBA400DC1163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		28E2A7931E81CBA400DC1163 /* Build configuration list for PBXNativeTarget "ImpressionTrackerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				28E2A7941E81CBA400DC1163 /* Debug */,
-				28E2A7951E81CBA400DC1163 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
